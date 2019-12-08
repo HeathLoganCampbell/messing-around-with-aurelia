@@ -1,4 +1,15 @@
-# `subscribeful`
+# `Playing with Aurelia`
+This isn't a project more of a playground testing features within Aurelia
+
+## Features played with
+* Variable injection
+* push states
+* Single page web apps
+* Nav / router 
+* Reactive Binding
+
+![Website](./readme-resources/website.png)
+
 
 This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
