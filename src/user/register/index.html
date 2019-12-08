@@ -1,0 +1,14 @@
+<template>
+   <require from="css/normalize.css"></require>
+   <require from="css/skeleton.css"></require>
+   <div class="container">
+      <form>
+         <h2>Register</h2>
+         <input class="u-full-width" type="email" placeholder="Your@Email.com" id="register_email" value.bind="email">
+         <input class="u-full-width" type="email" placeholder="Your@Email.com Again" id="register_emailConfirm" value.bind="emailConfirm">
+         <input class="u-full-width" type="password" placeholder="password" id="register_Password" value.bind="password" >
+         <button type="button" class="u-full-width"  click.trigger="registerUser()">Register</button>
+      </form>
+   </div>
+</template>
+   

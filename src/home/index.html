@@ -1,0 +1,27 @@
+<template>
+   <require from="css/normalize.css"></require>
+   <require from="css/skeleton.css"></require>
+   <h1>Hello, ${friend}!</h1>
+   <button type="button" click.trigger="cancel()">Cancel</button>
+  
+   <!--  -->
+   <label for="greet">Would you like me to greet the world?</label>
+   <input type="checkbox" id="greet" checked.bind="greet">
+   <div if.bind="greet">
+   Hello, World!
+   </div>
+   <div else>
+      <span>Nothing to see here</span>
+   </div>
+
+   u-full-width
+   <h1>Hello, ${email}!</h1>
+   <div class="container">
+      <form>
+         <h2>Login</h2>
+         <input class="u-full-width" type="email" id="email" value.bind="email">
+         <input class="u-full-width" type="password" id="password" value.bind="password" >
+         <button type="button" class="u-full-width"  click.trigger="cancel()">Cancel</button>
+      </form>
+   </div>
+ </template>

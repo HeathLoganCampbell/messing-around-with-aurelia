@@ -1,0 +1,12 @@
+<template>
+   <require from="css/normalize.css"></require>
+   <require from="css/skeleton.css"></require>
+   <div class="container">
+      <form>
+         <h2>Login</h2>
+         <input class="u-full-width" placeholder="Your@Email.com" type="email" id="login_email" value.bind="email">
+         <input class="u-full-width" placeholder="Password" type="password" id="login_password" value.bind="password" >
+         <button type="button" class="u-full-width"  click.trigger="loginUser()">Login</button>
+      </form>
+   </div>
+</template>

@@ -1,0 +1,21 @@
+<template>
+  <!-- <h1>${message}, ${name}</h1>
+  <input type="text" value.bind="name">
+  <button>Promised</button>
+  </br> -->
+  <require from="navb.html"></require>
+
+  <h1>NAVVVV</h1>
+  <div class="ui container">
+    <navb router.bind="router"></navb>
+    <div class="ui basic segment">
+      <router-view></router-view>
+    </div>
+  </div>
+  
+  <compose view-model="user/login/index"
+              view="./user/login/index.html"></compose>
+
+  <compose view-model="user/register/index"
+              view="./user/register/index.html"></compose>
+</template>
