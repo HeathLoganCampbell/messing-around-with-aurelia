@@ -7,6 +7,8 @@ This isn't a project more of a playground testing features within Aurelia
 * Single page web apps
 * Nav / router 
 * Reactive Binding
+* custom css 
+* skeleton css
 
 ![Website](./readme-resources/website.png)
 
